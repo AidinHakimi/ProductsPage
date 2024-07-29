@@ -1,0 +1,8 @@
+<!--This loop displays products using the child (ProductComponent)-->
+
+<div id="products">
+
+    @for (item of products; track $index) {
+        <product [product]="item"/>
+    }
+</div>

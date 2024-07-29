@@ -1,0 +1,22 @@
+<!--Inputs are fetched from the parent (ProductsComponent)-->
+
+<div id="product">
+    <div (click)=clicked()>
+        <!-- Failed to load resource: the server responded with a status of 404 (Not Found) -->
+        <!-- <div>
+            <img src="src\app\Pictures\Laptop.jpg" alt="Laptop">
+        </div> -->
+        <div>
+            {{product.title}}
+        </div>
+        <div>
+            {{product.stock}}
+        </div>
+        <div>
+            {{product.price}}
+        </div>
+        <div>
+            {{product.details}}
+        </div>
+    </div>
+</div>
